@@ -1,0 +1,52 @@
+const styles = {
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "100vh",
+    backgroundColor: "#f0f2f5",
+  },
+  form: {
+    display: "flex",
+    flexDirection: "column",
+    width: "300px",
+    padding: "20px",
+    borderRadius: "8px",
+    backgroundColor: "#fff",
+    boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+  },
+  inputGroup: {
+    marginBottom: "15px",
+  },
+  label: {
+    marginBottom: "5px",
+    fontWeight: "bold",
+  },
+  input: {
+    width: "97%",
+    padding: "8px",
+    paddingRight: "8px",
+    borderRadius: "4px",
+    border: "1px solid #ccc",
+  },
+  submitButton: {
+    padding: "10px 20px",
+    borderRadius: "4px",
+    border: "none",
+    backgroundColor: "#007bff",
+    color: "#fff",
+    fontWeight: "bold",
+    cursor: "pointer",
+  },
+  signupButton: {
+    marginTop: "10px",
+    padding: "10px 20px",
+    borderRadius: "4px",
+    border: "none",
+    backgroundColor: "#28a745",
+    color: "#fff",
+    fontWeight: "bold",
+    cursor: "pointer",
+  },
+};
